@@ -1,0 +1,10 @@
+
+SSM框架整合:
+    1. Spring与Mybatis的整合
+        0) 需要额外添加spring和Mybatis的关联jar包
+        1) 将Mybatis配置文件中的数据源配置内容转移到Spring的配置文件的数据源标签中
+        2) 将Mybatis配置文件中的映射文件读取部分转移到Spring的配置文件的会话工程标签中.(可选)
+        3) 在Spring的配置文件的会话工程标签中, 引入Mybatis的配置文件.(可选)
+        4) 在Spring的配置文件的添加对象Mapper映射文件的扫描和实例的标签(IoC/DI)
+        5) 在Spring的配置文件的添加关于事务处理的AOP声明
+    2. Spring与SpringMVC的整合
